@@ -24,7 +24,7 @@ function Footer() {
             mb="30px"
             color={shades.secondary[500]}
           >
-            ECOMMER
+            SHOPPI SHOP
           </Typography>
           <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -38,31 +38,31 @@ function Footer() {
           <Typography variant="h4" fontWeight="bold" mb="30px">
             About Us
           </Typography>
-          <Typography mb="30px">Careers</Typography>
-          <Typography mb="30px">Our Stores</Typography>
-          <Typography mb="30px">Terms & Conditions</Typography>
+          <Typography mb="30px">Postuler</Typography>
+          <Typography mb="30px">Nos magasins</Typography>
+          <Typography mb="30px">Conditions</Typography>
           <Typography mb="30px">Privacy Policy</Typography>
         </Box>
 
         <Box>
           <Typography variant="h4" fontWeight="bold" mb="30px">
-            Customer Care
+            Service Clients
           </Typography>
           <Typography mb="30px">Help Center</Typography>
-          <Typography mb="30px">Track Your Order</Typography>
-          <Typography mb="30px">Corporate & Bulk Purchasing</Typography>
-          <Typography mb="30px">Returns & Refunds</Typography>
+          <Typography mb="30px">Suivez votre livraison</Typography>
+          <Typography mb="30px">Assistance</Typography>
+          <Typography mb="30px">Remboursement</Typography>
         </Box>
 
         <Box width="clamp(20%, 25%, 30%)">
           <Typography variant="h4" fontWeight="bold" mb="30px">
-            Contact Us
+            Nous contacter
           </Typography>
           <Typography mb="30px">
-            50 north Whatever Blvd, Washington, DC 10501
+            50 shoppi Street, Bahamas Islands
           </Typography>
           <Typography mb="30px" sx={{ wordWrap: "break-word" }}>
-            Email: mredwardroh@gmail.com
+            Email: Contact@shoppi.com
           </Typography>
           <Typography mb="30px">(222)333-4444</Typography>
         </Box>

@@ -36,8 +36,8 @@ const Item = ({ item, width }) => {
       >
         <img
           alt={item.name}
-          width="300px"
-          height="400px"
+          width="225px"
+          height="300px"
           src={`http://localhost:1337${url}`}
           onClick={() => navigate(`/item/${item.id}`)}
           style={{ cursor: "pointer" }}
@@ -47,7 +47,7 @@ const Item = ({ item, width }) => {
           position="absolute"
           bottom="10%"
           left="0"
-          width="100%"
+          width="220px"
           padding="0 5%"
         >
           <Box display="flex" justifyContent="space-between">
@@ -71,7 +71,7 @@ const Item = ({ item, width }) => {
               }}
               sx={{ backgroundColor: shades.primary[300], color: "white" }}
             >
-              Add to Cart
+              Acheter
             </Button>
           </Box>
         </Box>
@@ -84,7 +84,7 @@ const Item = ({ item, width }) => {
             .replace(/^./, (str) => str.toUpperCase())}
         </Typography>
         <Typography>{name}</Typography>
-        <Typography fontWeight="bold">${price}</Typography>
+        <Typography fontWeight="bold">€{price}</Typography>
       </Box>
     </Box>
   );

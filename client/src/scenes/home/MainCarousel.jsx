@@ -20,10 +20,15 @@ const MainCarousel = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
   return (
     <Carousel
+      autoPlay={true}
       infiniteLoop={true}
       showThumbs={false}
       showIndicators={false}
       showStatus={false}
+      animationHandler={'fade'}
+      swipeable={false}
+      interval={6000}
+      transitionTime={2000}
       renderArrowPrev={(onClickHandler, hasPrev, label) => (
         <IconButton
           onClick={onClickHandler}
@@ -62,7 +67,7 @@ const MainCarousel = () => {
             alt={`carousel-${index}`}
             style={{
               width: "100%",
-              height: "200vh",
+              height: "100vh",
               objectFit: "cover",
               backgroundAttachment: "fixed",
             }}

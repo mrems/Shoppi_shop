@@ -54,9 +54,10 @@ const ShoppingList = () => {
         centered
         TabIndicatorProps={{ sx: { display: breakPoint ? "block" : "none" } }}
         sx={{
-          m: "25px",
+          m: "30px",
           "& .MuiTabs-flexContainer": {
             flexWrap: "wrap",
+            
           },
         }}
       >
@@ -66,9 +67,10 @@ const ShoppingList = () => {
         <Tab label="TOP SHOPPI TOP" value="TopShoppiTop" />
       </Tabs>
       <Box
+        paddingTop="20px"
         margin="0 auto"
         display="grid"
-        gridTemplateColumns="repeat(auto-fill, 300px)"
+        gridTemplateColumns="repeat(auto-fill, 225px)"
         justifyContent="space-around"
         rowGap="20px"
         columnGap="1.33%"

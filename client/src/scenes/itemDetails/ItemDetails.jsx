@@ -105,13 +105,13 @@ const ItemDetails = () => {
               }}
               onClick={() => dispatch(addToCart({ item: { ...item, count } }))}
             >
-              ADD TO CART
+              ACHETER
             </Button>
           </Box>
           <Box>
             <Box m="20px 0 5px 0" display="flex">
               <FavoriteBorderOutlinedIcon />
-              <Typography sx={{ ml: "5px" }}>ADD TO WISHLIST</Typography>
+              <Typography sx={{ ml: "5px" }}>AJOUTER A MES FAVORIS</Typography>
             </Box>
             <Typography>CATEGORIES: {item?.attributes?.category}</Typography>
           </Box>
@@ -135,7 +135,7 @@ const ItemDetails = () => {
       {/* RELATED ITEMS */}
       <Box mt="50px" width="100%">
         <Typography variant="h3" fontWeight="bold">
-          Related Products
+          PRODUITS SIMILAIRES
         </Typography>
         <Box
           mt="20px"

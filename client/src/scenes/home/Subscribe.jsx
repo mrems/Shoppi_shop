@@ -10,9 +10,9 @@ const Subscribe = () => {
       <IconButton>
         <MarkEmailReadOutlinedIcon fontSize="large" />
       </IconButton>
-      <Typography variant="h3">Subscribe To Our Newsletter</Typography>
+      <Typography variant="h3">Newsletter</Typography>
       <Typography>
-        and receive $20 coupon for your first order when you checkout
+        Inscrivez vous et recevez un autocollant Shoppi Top !!! 
       </Typography>
       <Box
         p="2px 4px"
@@ -24,13 +24,13 @@ const Subscribe = () => {
       >
         <InputBase
           sx={{ ml: 1, flex: 1 }}
-          placeholder="Enter email"
+          placeholder="Email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
         />
         <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
         <Typography sx={{ p: "10px", ":hover": { cursor: "pointer" } }}>
-          Subscribe
+          Envoyer
         </Typography>
       </Box>
     </Box>
